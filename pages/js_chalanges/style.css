@@ -1,0 +1,277 @@
+/* General Stufs */
+#pre{
+    padding: 10px;
+}
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    padding: 10px;
+}
+
+div{
+    display: block;
+    margin: auto;
+    width: 60%;
+    border: black solid 2px;
+    text-align: center;
+}
+.buttons ul{
+    display: flex;
+    list-style: none;
+    padding: 0px 30px;
+}
+.buttons li{
+    margin: auto;
+}
+button{
+    margin: 0;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    height: 40px;
+    background-color: black;
+}
+
+table{
+    margin: 10px auto;
+    border-collapse: collapse;
+}
+
+tr, td{
+    border: 1px solid black;
+}
+
+td{
+    text-align: center;
+}
+
+/*Challenge 1*/
+
+#birthDayButton{
+    background-color: rgb(0, 204, 255);
+}
+
+#birthDayReset{
+    background-color: rgb(255, 55, 55);
+}
+
+#ageResult{
+    border: none;
+    font-weight: bold;
+    margin: 15px auto;
+}
+
+/*Challenge 2*/
+
+#catGeneratorButton{
+    background-color: rgb(63, 238, 63);
+}
+
+#generatedCatsList{
+    list-style: none;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#generatedCatsList li{
+    margin: auto;
+    padding: 10px;
+    width: 200px;
+}
+
+#generatedCatsList li img{
+
+    width: 200px;
+    box-shadow: black 0px 0px 15px;
+}
+
+/*Challenge 3*/
+
+.rock-paper-scissors{
+    width: 100%;
+    border: none;
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+}
+
+.rock-paper-scissors img{
+    width: 30%;
+    margin: 20px auto;
+    padding: 0;
+    border-radius: 15%;
+}
+
+.rock-paper-scissors img:hover{
+    box-shadow: blue 0 0 15px;
+}
+
+#rpsResult{
+    width: 100%;
+    border: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#rpsResult img, #rpsResult h1{
+    margin: auto;
+    width: 30%;
+    padding: 0;
+    border-radius: 15%;
+}
+
+.rpsRestartButton{
+    border: none;
+    width: 100%;
+    margin:0;
+    padding: 0;
+}
+
+#rpsRestart{
+    background-color: rgb(255, 55, 55);
+    margin: auto;
+    margin-top: 30px;
+    width: 30%;
+}
+
+@media screen and (min-width: 1270px){
+    #rpsResult img, #rpsResult h1{
+        width: 222px;
+    }
+    .rock-paper-scissors img{
+        width: 222px;
+    }
+    #rpsRestart{
+        background-color: rgb(255, 55, 55);
+        margin: auto;
+        margin-top: 30px;
+        width: 222px;
+    }
+}
+
+.rpsWinner{
+    box-shadow: green 0 0 15px;
+}
+
+.rpsLoser{
+    box-shadow: red 0 0 15px;
+}
+
+.rpsTie{
+    box-shadow: blue 0 0 15px;
+}
+
+.hide{
+    display: none;
+}
+
+/*challenge 4:*/
+
+.flex-box{
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+.flex-box select{
+    margin: 10px 30px;
+    transform: translate(0, 50%);
+}
+.flex-box button{
+    margin: 10px auto;
+}
+
+/*Chellenge 5:*/
+
+#bjHit{
+    background-color: rgb(0, 204, 255);
+}
+
+#bjStand{
+    background-color:  orange;
+}
+
+#bjDeal{
+    background-color: rgb(255, 55, 55);
+}
+
+.bj-buttons{
+    width: 100%;
+    border: none;
+    border-top: 1px solid black;
+}
+.bj-buttons ul{
+    margin: auto;
+    display: inline-flex;
+    list-style: none;
+    padding: 0;
+}
+
+.bj-buttons li{
+    margin: 5px;
+}
+
+.blackjack{
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    background-image: url(img/blackjack_table.jpg);
+    background-size: 120vh;
+    background-position: center;
+}
+
+.bj-left{
+    border: solid black 1px;
+    height: 70vh;
+    margin: 1px 0;
+    margin-left: 1%;
+    width: 48%;
+}
+.bj-right{
+    border: solid black 1px;
+    height: 70vh;
+    margin-right: 1%;
+    width: 48%;
+}
+
+.bj-left, .bj-right{
+    overflow: hidden;
+}
+
+@keyframes cardAnimation{
+    0% {
+        transform: translateX(300px);
+    }
+    100%{
+        transform: translateX(0);
+    }
+}
+
+.cards{
+    width: 100px;
+    margin:2px;
+    border-radius: 5px;
+    animation-duration: 700ms;
+}
+
+@media screen and (max-width: 930px){
+    .cards{
+        width: 90px;
+    }
+}
+@media screen and (max-width: 824px){
+    .cards{
+        width: 70px;
+    }
+}
+
+@media screen and (max-width: 577px){
+    .cards{
+        width: 60px;
+    }
+}

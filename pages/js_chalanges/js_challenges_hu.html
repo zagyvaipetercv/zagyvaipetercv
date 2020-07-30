@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Chalenges</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favicon/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    
+    <div>
+        <p id="pre">
+        Ez az oldal arra szolgált, hogy megtanuljam a JS alapjait. <br>
+        A videó, ami alapján készítettem itt található: <br>
+        <a href="https://www.youtube.com/watch?v=Qqx_wzMmFeA&t=22132s">JavaScript Tutorial for Beginners - Full Course in 8 Hours [2020]</a> <br>
+        A videó nagy része csak a kihívások megismerésére szolgált, a feladatokat saját tudásom alapján, saját kóddal lett írva, ezért is tér el az eredeti videóban szereplőtől. <br>
+        <a href="../../cv_hu.html">Link a kezdőlapra</a>        
+        </p>
+    </div>        
+    
+    <!--challenge 1:-->
+    <div>
+        <h1>Challenge 1: Your age in days</h1>
+    </div>
+    <div class="buttons">
+        <ul>
+            <li><button id="birthDayButton">Click Me</button></li>
+            <li><button id="birthDayReset">Reset</button></li>
+        </ul>
+    </div>
+    <div class="first-challenge-parent-selection">
+        <div id="ageResult"></div>
+    </div>
+
+    <!--challenge 2:-->
+
+    <div>
+        <h1>Challenge 2: Turtle Generator</h1>
+    </div>
+    <div class="buttons">
+        <ul>
+            <li><button id="catGeneratorButton">Generate Turtle</button></li>
+        </ul>
+    </div>
+    <div>
+        <ul id="generatedCatsList"></ul>
+    </div>
+
+    <!--Challenge 3:-->
+
+    <div>
+        <h1>Challenge 3: Rock, Paper, Scissors</h1>
+    </div>
+    <div>
+        <div class="rock-paper-scissors" id="rpsStart">
+            <img id="rock" src="img/rock.png" alt="" onclick="rpsGame(this)">
+            <img src="img/paper.png" alt="" id="paper" onclick="rpsGame(this)">
+            <img src="img/scissors.png" alt="" id="scissors" onclick="rpsGame(this)"> 
+        </div>
+        <div id="rpsResult" class=" hide"></div>
+    </div>
+
+    <!--Challenge 4:-->
+
+    <div>
+        <h1>Challenge 4: Change the Color of the Buttons!</h1>
+    </div>
+    <div class="flex-box">
+        <form action="">
+            <select name="backdrop" id="background" onchange="buttonColorChange(this)">
+                <option value="default">Default</option>
+                <option value="red">Red</option>
+                <option value="green">Green</option>
+                <option value="orange">Yellow</option>
+                <option value="blue">Blue</option>
+                <option value="violet">Violet</option>
+                <option value="random">Random</option>
+            </select>
+        </form>
+        <button style="background: blue;" onclick="colorChanger('random',document.getElementsByTagName('button'))">Wee!</button>
+        <button style="background: red;" onclick="dealingcardSFX.play()">Google</button>
+        <button style="background: orange;">Yahoo!</button>
+        <button style="background: green;">Facebook</button>
+    </div>
+
+    <!--Challenge 5:-->
+
+    <div id="blackjack">
+        <h1>Challnege 5: Blackjack</h1>
+        <h2>Let's play</h2>
+    </div>
+    <div class="blackjack">
+        <div class="bj-left">
+            <h3>You: 0</h3>
+            <img src="" alt="">
+        </div>
+        <div class="bj-right">
+            <h3>Dealer: 0</h3>
+        </div>
+        <div class="bj-buttons">
+            <ul>
+                <li><button id="bjHit">Hit</button></li>
+                <li><button id="bjStand">Stand</button></li>
+                <li><Button id="bjDeal">Deal</Button></li>
+            </ul>
+        </div>
+    </div>
+    <div>
+            <table id='bjTable'>
+                <tr>
+                    <td>Wins</td>
+                    <td>Losses</td>
+                    <td>Draws</td>
+                </tr>
+                <tr>
+                    <td id="bjWins">0</td>
+                    <td id="bjLosses">0</td>
+                    <td id="bjDraws">0</td>
+                </tr>
+            </table>
+    </div>
+
+    <!--SCRIPT-->
+    <script src="index_script.js"></script>
+</body>
+</html>

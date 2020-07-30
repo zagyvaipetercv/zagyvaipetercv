@@ -1,0 +1,312 @@
+[
+    {
+        "id": 0,
+        "name": "hearts_ace",
+        "src": "img/cards/",
+        "value": 11
+    },
+    {
+        "id": 1,
+        "name": "hearts_2",
+        "src": "img/cards/",
+        "value": 2
+    },
+    {
+        "id": 2,
+        "name": "hearts_3",
+        "src": "img/cards/",
+        "value": 3
+    },
+    {
+        "id": 3,
+        "name": "hearts_4",
+        "src": "img/cards/",
+        "value": 4
+    },
+    {
+        "id": 4,
+        "name": "hearts_5",
+        "src": "img/cards/",
+        "value": 5
+    },
+    {
+        "id": 5,
+        "name": "hearts_6",
+        "src": "img/cards/",
+        "value": 6
+    },
+    {
+        "id": 6,
+        "name": "hearts_7",
+        "src": "img/cards/",
+        "value": 7
+    },
+    {
+        "id": 7,
+        "name": "hearts_8",
+        "src": "img/cards/",
+        "value": 8
+    },
+    {
+        "id": 8,
+        "name": "hearts_9",
+        "src": "img/cards/",
+        "value": 9
+    },
+    {
+        "id": 9,
+        "name": "hearts_10",
+        "src": "img/cards/",
+        "value": 10
+    },
+    {
+        "id": 10,
+        "name": "hearts_j",
+        "src": "img/cards/",
+        "value": 10
+    },
+    {
+        "id": 11,
+        "name": "hearts_q",
+        "src": "img/cards/",
+        "value": 10
+    },
+    {
+        "id": 12,
+        "name": "hearts_k",
+        "src": "img/cards/",
+        "value": 10
+    },
+    {
+        "id": 13,
+        "name": "spades_ace",
+        "src": "img/cards/",
+        "value": 11
+    },
+    {
+        "id": 14,
+        "name": "spades_2",
+        "src": "img/cards/",
+        "value": 2
+    },
+    {
+        "id": 15,
+        "name": "spades_3",
+        "src": "img/cards/",
+        "value": 3
+    },
+    {
+        "id": 16,
+        "name": "spades_4",
+        "src": "img/cards/",
+        "value": 4
+    },
+    {
+        "id": 17,
+        "name": "spades_5",
+        "src": "img/cards/",
+        "value": 5
+    },
+    {
+        "id": 18,
+        "name": "spades_6",
+        "src": "img/cards/",
+        "value": 6
+    },
+    {
+        "id": 19,
+        "name": "spades_7",
+        "src": "img/cards/",
+        "value": 7
+    },
+    {
+        "id": 20,
+        "name": "spades_8",
+        "src": "img/cards/",
+        "value": 8
+    },
+    {
+        "id": 21,
+        "name": "spades_9",
+        "src": "img/cards/",
+        "value": 9
+    },
+    {
+        "id": 22,
+        "name": "spades_10",
+        "src": "img/cards/",
+        "value": 10
+    },
+    {
+        "id": 23,
+        "name": "spades_j",
+        "src": "img/cards/",
+        "value": 10
+    },
+    {
+        "id": 24,
+        "name": "spades_q",
+        "src": "img/cards/",
+        "value": 10
+    },
+    {
+        "id": 25,
+        "name": "spades_k",
+        "src": "img/cards/",
+        "value": 10
+    },    {
+        "id": 26,
+        "name": "clubs_ace",
+        "src": "img/cards/",
+        "value": 11
+    },
+    {
+        "id": 27,
+        "name": "clubs_2",
+        "src": "img/cards/",
+        "value": 2
+    },
+    {
+        "id": 28,
+        "name": "clubs_3",
+        "src": "img/cards/",
+        "value": 3
+    },
+    {
+        "id": 29,
+        "name": "clubs_4",
+        "src": "img/cards/",
+        "value": 4
+    },
+    {
+        "id": 30,
+        "name": "clubs_5",
+        "src": "img/cards/",
+        "value": 5
+    },
+    {
+        "id": 31,
+        "name": "clubs_6",
+        "src": "img/cards/",
+        "value": 6
+    },
+    {
+        "id": 32,
+        "name": "clubs_7",
+        "src": "img/cards/",
+        "value": 7
+    },
+    {
+        "id": 33,
+        "name": "clubs_8",
+        "src": "img/cards/",
+        "value": 8
+    },
+    {
+        "id": 34,
+        "name": "clubs_9",
+        "src": "img/cards/",
+        "value": 9
+    },
+    {
+        "id": 35,
+        "name": "clubs_10",
+        "src": "img/cards/",
+        "value": 10
+    },
+    {
+        "id": 36,
+        "name": "clubs_j",
+        "src": "img/cards/",
+        "value": 10
+    },
+    {
+        "id": 37,
+        "name": "clubs_q",
+        "src": "img/cards/",
+        "value": 10
+    },
+    {
+        "id": 38,
+        "name": "clubs_k",
+        "src": "img/cards/",
+        "value": 10
+    },    {
+        "id": 39,
+        "name": "diamonds_ace",
+        "src": "img/cards/",
+        "value": 11
+    },
+    {
+        "id": 40,
+        "name": "diamonds_2",
+        "src": "img/cards/",
+        "value": 2
+    },
+    {
+        "id": 41,
+        "name": "diamonds_3",
+        "src": "img/cards/",
+        "value": 3
+    },
+    {
+        "id": 42,
+        "name": "diamonds_4",
+        "src": "img/cards/",
+        "value": 4
+    },
+    {
+        "id": 43,
+        "name": "diamonds_5",
+        "src": "img/cards/",
+        "value": 5
+    },
+    {
+        "id": 44,
+        "name": "diamonds_6",
+        "src": "img/cards/",
+        "value": 6
+    },
+    {
+        "id": 45,
+        "name": "diamonds_7",
+        "src": "img/cards/",
+        "value": 7
+    },
+    {
+        "id": 46,
+        "name": "diamonds_8",
+        "src": "img/cards/",
+        "value": 8
+    },
+    {
+        "id": 47,
+        "name": "diamonds_9",
+        "src": "img/cards/",
+        "value": 9
+    },
+    {
+        "id": 48,
+        "name": "diamonds_10",
+        "src": "img/cards/",
+        "value": 10
+    },
+    {
+        "id": 49,
+        "name": "diamonds_j",
+        "src": "img/cards/",
+        "value": 10
+    },
+    {
+        "id": 50,
+        "name": "diamonds_q",
+        "src": "img/cards/",
+        "value": 10
+    },
+    {
+        "id": 51,
+        "name": "diamonds_k",
+        "src": "img/cards/",
+        "value": 10
+    }
+]
