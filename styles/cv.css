@@ -20,6 +20,8 @@ nav{
     font-weight: lighter;
 }
 
+
+
 nav a{
     color: rgb(221, 221, 221);
     text-decoration: none;
@@ -86,4 +88,14 @@ footer ul{
 
 footer ul li{
     margin: auto;
+}
+
+@media screen and (max-width:460px){
+    nav{
+        font-size: 20px
+    }
+
+    main{
+        font-size: 10px;
+    }
 }
